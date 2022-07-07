@@ -5,3 +5,16 @@
 }
 
 
+<section class="banner container-fluid p-5" style="background-color: rgb(190, 188, 188)">
+<div class="row ">
+    <div class="col-md-7 ml-2">
+        <img src="capstone_colmar_assets/images/banner.jpg" class="img-fluid">
+
+    </div>
+    <div class="banner-text col-md-5 align-self-center  pl-5">
+        <h1 class="title display-4 font-weight-bold "   style="color: rgb(88, 85, 85)">Learn something <br>new everyday</h1></br>
+        <p class="font-weight-bold">Lorem ipsum dolor sit amet  <br>consectetur, adipisicing elit.<br></p>
+        <button class="btn btn-primary w-75 border border-dark mt-4"  style="background-color: rgb(88, 85, 85)">Start here</button>
+    </div>
+</div>   
+</section>
