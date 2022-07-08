@@ -1,6 +1,106 @@
-.banner p{
-
-  font-size:  2rem;
-  color: rgb(88, 85, 85)
+body {
+  font-family: 'League Spartan', sans-serif;
+  padding: 0;
+  color: #3f3f3f;
 }
 
+
+/* Styling news updates and thesis updates */
+
+.lg-items {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.lg-text-pd {
+  margin: 32px auto;
+}
+
+.sm-items {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sm-block {
+  margin: 30px auto;
+}
+
+
+
+
+@media (max-width: 992px) {
+
+  .banner-text {
+    font-size: 50px;
+    padding-top: 10%;
+  }
+
+  .lg-items {
+    padding: 0;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .sm-items{
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  }
+
+  .news-container{
+    padding: 3% ;
+  }
+
+  .articles-container{
+    padding: 0;
+  }
+
+  .switch-container{
+    padding: 0;
+  }
+
+  #learning {
+    background-color: white;
+  }
+
+  .card-padding{
+    background-color: #d7d7d7;
+  }
+
+  #learning .card-title {
+    font-size: 15px;
+  }
+
+  footer{
+    font-size: small;
+    text-align: center;
+  }
+
+  }
+
+
+/* section 4 Thesis */
+
+.frame-container, .switch-container {
+  padding: 32px 64px;
+}
+
+.news-container {
+  padding: 0 3% 6% 3%;
+  align-items: center;
+}
+
+.g-custom{
+  --bs-gutter-x: 0px;
+}
+
+.VDO-scr{
+  width: 100%;
+}
+
+#terms{
+  float: right;
+}
